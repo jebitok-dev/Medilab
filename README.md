@@ -8,8 +8,6 @@ This a landing page for Medical Hospital that allows hospitals to share more inf
 
 <!-- Additional description about the project and its features. -->
 
-- TIS
-
 ## Built With
 
 - HTML5
