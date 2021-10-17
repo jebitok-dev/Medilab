@@ -21,6 +21,106 @@ body {
   background-color: #f0f0f0;
 }
 
+.navbar-nav .nav-item:hover {
+  background-color: rgba(180, 190, 203, 0.4);
+}
+
+.navbar-right {
+  margin-left: 600px;
+}
+
+.navbar-toggler {
+  font-size: 0.5rem;
+  line-height: 1;
+  color: var(--gray);
+  background-color: var(--white) !important;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.navbar-nav li,
+.navbar-brand {
+  font-size: 28px;
+}
+
+.wheat {
+  color: var(--white);
+}
+
+.btn1 {
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.btn-visible {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  overflow: hidden;
+  outline: none;
+}
+
+.active {
+  color: var(--orange);
+}
+
+.card-subtitle,
+.card-text,
+a {
+  font-family: "Crete Round", sans-serif;
+}
+
+.second h1 {
+  font-size: 72px;
+}
+
+.gray {
+  background-color: var(--gray);
+}
+
+.hidden {
+  display: none;
+}
+
+.bookstore {
+  border: 20px solid var(--blue);
+}
+
+.fa1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+a {
+  color: var(--white);
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+.second h4 {
+  font-size: 32px;
+}
+
+.crete,
+.card-text,
+p,
+form {
+  font-family: "Inter", sans-serif;
+}
+
 .blue {
   color: var(--blue);
 }
@@ -406,5 +506,29 @@ iframe {
   }
   100% {
     background-positon-x: 0px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
