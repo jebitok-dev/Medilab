@@ -330,7 +330,7 @@ li {
 }
 span {
     font-weight: 700;
-    color: #102a43;
+    color: var(--blue);
     line-height: 35px;
     line-height: 2.5rem;
     font-size: 12px;
@@ -338,7 +338,7 @@ span {
     text-transform: uppercase;
 }
 input[type="submit"] {
-    background: #fc4366;
+    background: var(--blue);
     color: white;
     font-weight: 700;
     font-size: 1.2rem;
@@ -362,7 +362,7 @@ form {
 }
 
 .required-star {
-    color: #fc4366;
+    color: var(--blue);
 }
 
 input,
@@ -371,7 +371,7 @@ textarea {
     padding: 9px 20px;
     border: 1px solid #e1e2eb;
     background-color: #fff;
-    color: #102a43;
+    color: var(--blue);
     caret-color: #829ab1;
     box-sizing: border-box;
     font-size: 14px;
@@ -396,7 +396,7 @@ iframe {
 .footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: var(--blue);
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -422,7 +422,7 @@ iframe {
 
 .social-icon__link {
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -433,7 +433,7 @@ iframe {
 
 .menu__link {
   font-size: 1.2rem;
-  color: #fff;
+  color: var(--white);
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -447,7 +447,7 @@ iframe {
 }
 
 .footer p {
-  color: #fff;
+  color: var(--white);
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
