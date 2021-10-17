@@ -7,7 +7,6 @@
   --black: #000;
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,9 +14,19 @@
   font-family: "Poppins", sans-serif;
 }
 
+html,
 body {
-  font-family: "Muli", sans-serif;
-  background-color: #f0f0f0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-nav .nav-item:hover {
@@ -537,11 +546,27 @@ iframe {
   .container {
     max-width: 720px;
   }
+
+  body, html {
+    font-size: 80%;
+  }
+
+  /* .centeree {
+    z-index: 9;
+  } */
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+
+  /* .centeree {
+    z-index: 1000;
+  }  */
+
+   body, html {
+    font-size: 60%;
   }
 }
 
