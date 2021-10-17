@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-nav .nav-item:hover {
-  background-color: rgba(180, 190, 203, 0.4);
+  background-color: var(--blue);
 }
 
 .navbar-right {
@@ -47,6 +47,11 @@ body {
   color: var(--white);
 }
 
+.black {
+  background-color: var(--black);
+  color: var(--white);
+}
+
 .btn1 {
   margin-left: 40px;
   margin-right: 10px;
@@ -61,7 +66,7 @@ body {
 }
 
 .active {
-  color: var(--orange);
+  color: var(--blue);
 }
 
 .card-subtitle,
@@ -70,12 +75,19 @@ a {
   font-family: "Crete Round", sans-serif;
 }
 
-.second h1 {
-  font-size: 72px;
+h6 {
+  font-size: 48px;
 }
 
-.gray {
-  background-color: var(--gray);
+.centeree {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.second h1 {
+  font-size: 72px;
 }
 
 .hidden {
@@ -226,8 +238,12 @@ h1 {
   background-color: #9fa4a8;
 }
 
+.card-img-overlay {
+  background-color: rgba(#000, 0.4);
+}
+
 #testimonials {
-    background-color: black;
+    background-color: var(--blue);
     width: 512px;
     margin: 0 auto;
 }
@@ -390,7 +406,7 @@ iframe {
   max-width: 60rem;
   height: 25em;
   margin: 2rem auto;
-  border: 1px solid black;
+  border: 1px solid var(--black);
 }
 
 .footer {
