@@ -12,7 +12,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -43,13 +42,16 @@ body {
   font-size: 28px;
 }
 
+.navbar-nav a {
+color: var(--white);
+}
+
 .wheat {
   color: var(--white);
 }
 
 .black {
   background-color: var(--black);
-  color: var(--white);
 }
 
 .btn1 {
@@ -81,7 +83,7 @@ h6 {
 
 .centeree {
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
