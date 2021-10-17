@@ -92,7 +92,7 @@ h6 {
 
 .centeree {
   position: absolute;
-  top: 70%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -551,9 +551,9 @@ iframe {
     font-size: 80%;
   }
 
-  /* .centeree {
-    z-index: 9;
-  } */
+  .centeree {
+    top: 30%
+  }
 }
 
 @media (min-width: 992px) {
