@@ -2,6 +2,8 @@
 
 > The Medical Lab Project
 
+This a landing page for Medical Hospital that allows hospitals to share more information about, services, departments, location, and allows users can book an appointment.
+
 <!-- ![screenshot](./assets/images/patashule7.png) -->
 
 <!-- Additional description about the project and its features. -->
